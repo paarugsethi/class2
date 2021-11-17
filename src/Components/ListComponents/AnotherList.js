@@ -1,5 +1,5 @@
 import React from "react";
-import ListRow from "../ListRow";
+import ListRow from "./ListRow";
 import List from "./List";
 
 class AnotherList extends React.Component{
