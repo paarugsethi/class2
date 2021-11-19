@@ -1,14 +1,12 @@
 import React from 'react';
 import styles from './App.module.css';
-import Layout from './ReactMenu/MenuComponents/MenuLayout';
-import SingleButtons from './ReactMenu/MenuComponents/SingleComponent/ButtonExport';
+import DesignerCard from './Components/DesignerCard/CardComponents/CardExport';
 
 function App() {
   return (
     <div style= {{margin: 4}} className={styles.App}>
-      <h1>React II Problem 2 - React Menu</h1>
-      <Layout/>
-      <SingleButtons/>
+      <h1>React II Problem 3 - React Designer Card</h1>
+      <DesignerCard/>
     </div>
   );
 }

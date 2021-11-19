@@ -1,0 +1,9 @@
+.Pricing{
+    width: 330px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    margin: 20px auto;
+    padding: 0 25px;
+}

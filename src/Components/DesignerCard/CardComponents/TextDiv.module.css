@@ -1,0 +1,7 @@
+.Main{
+    width: 380px;
+    height: 370px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}

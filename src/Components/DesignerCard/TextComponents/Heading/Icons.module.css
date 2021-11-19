@@ -1,0 +1,12 @@
+.IconDiv{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin: auto 24px auto auto;
+}
+
+.icon{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
