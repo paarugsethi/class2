@@ -1,25 +1,27 @@
-import {userState} from "react";
-import Button from ".../Button";
+import {useState} from "react";
 
-const TodoInput = ({ onTaskCreate }) => {
-    const [text, setText] = userState("");
+const TodoInput = ({onTaskCreate}) => {
+    const [text, setText] = useState("");
     const handleChange = (e) => {
         setText(e.target.value);
-    };
+    }
 
     const handleClick = () => {
-        onTaskCreate(text);
-    };
-
-    return <div>
-        <input type="text"
-        placeholder="Add Task"
-        value = {text}
-        onChange = {handleChange}
-        />
-        <Button title="ADD" onClick={handleChange}></Button>
-    </div>
-
+        // onTaskCreate()
+        onTaskCreate(text)
+    }
+    
+    return (
+        <div>
+            <input 
+                type="text" 
+                placeholder="Add a Task" 
+                value={text} 
+                onChange={handleChange}
+            />
+            <button onClick={handleClick}>ADD</button>
+        </div>
+    )
 };
 
 export default TodoInput;
