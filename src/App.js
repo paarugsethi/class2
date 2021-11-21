@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './App.module.css';
-import Todo from './Components/TODO/Todo';
+import List from './Components/UseStateMobile/ListExpost';
 
 function App() {
   return (
     <div style= {{margin: 4}} className={styles.App}>
-      <h1>To-do List</h1>
-      <Todo/>
+      <h1>React useState and props - React Mobile OS</h1>
+      <List/>
     </div>
   );
 }
