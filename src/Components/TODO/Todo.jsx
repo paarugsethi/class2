@@ -4,11 +4,11 @@ import TodoItem from "./TodoItem";
 
 const Todo = () => {
     const [todos, setTodos] = useState([
-        {
-            id: 1,
-            title: "DEFAULT",
-            status: false
-        }
+        // {
+        //     id: 1,
+        //     title: "DEFAULT",
+        //     status: false
+        // }
     ]);
     const handleTaskCreate = (title) => {
         const payload = {
